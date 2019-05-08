@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    font-family: 'Tahoma', sans-serif;
+    background-color: #fff; /* صورتی کم‌رنگ */
+  }
+  
+  /* نوار بالا */
+  .navbar {
+    background-color: rgb(233, 187, 214);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+gap: 30px;
+position: fixed;
+top: 0;
+width: 100%;
+z-index: 1;
+    
+    
+  }
+    
+    .logo {
+      width: 200px;
+      height: auto;
+    }
+  
+  /* آیتم‌های منو */
+  .navbar  a {
+    color: black;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 18px;
+    transition: color 0.3s;
+  }
+  
+  /* تغییر رنگ در حالت هاور */
+  .navbar a:hover {
+    color: red;
+  }
+  .center-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+  }
+  .logo 
+  {
+    width: 250px;
+    height: auto;
+  }
